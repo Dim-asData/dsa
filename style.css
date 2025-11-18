@@ -19,7 +19,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Container kedua: input + button */
 .input-container {
     display: flex;
     gap: 10px;
@@ -47,7 +46,6 @@ button:disabled {
     cursor: not-allowed;
 }
 
-/* Container ketiga: list */
 .list-container {
     display: flex;
     flex-direction: column;
@@ -117,8 +115,6 @@ button:disabled {
     background: #6c757d;
 }
 
-/* LOGIKA HIDE/SHOW BUTTONS */
-/* Secara default (tidak editing), sembunyikan tombol edit group */
 .edit-group {
     display: none;
 }
@@ -126,7 +122,6 @@ button:disabled {
     display: block;
 }
 
-/* Saat parent memiliki class 'editing', tukar yang ditampilkan */
 .item.editing .edit-group {
     display: flex;
 }
